@@ -1,0 +1,5 @@
+package com.lpu.user.entity;
+
+public class User {
+
+}

@@ -1,0 +1,5 @@
+package com.lpu.user.controller;
+
+public class UserController {
+
+}

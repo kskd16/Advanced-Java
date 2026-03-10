@@ -1,0 +1,5 @@
+package com.lpu.user.service;
+
+public class UserService {
+
+}
