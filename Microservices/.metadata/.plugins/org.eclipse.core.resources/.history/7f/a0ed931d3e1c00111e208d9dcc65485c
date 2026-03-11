@@ -1,5 +1,0 @@
-package com.lpu.product.repo;
-
-public interface ProductRepository {
-
-}

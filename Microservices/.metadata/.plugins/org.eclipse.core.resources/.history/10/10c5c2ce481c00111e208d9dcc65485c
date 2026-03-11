@@ -1,8 +1,0 @@
-spring.application.name=api-gateway
-
-server.port = 8888
-spring.cloud.gateway.routes[0].id = test
-spring.cloud.gateway.routes[0].uri = http://localhost:8081
-spring.cloud.gateway.routes[0].predicates[0] = Path=/users/**
-
-management.endpoints.web.exposure.include=*

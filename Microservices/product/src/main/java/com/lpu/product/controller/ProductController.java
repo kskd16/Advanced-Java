@@ -16,6 +16,12 @@ public class ProductController {
 
     @Autowired
     private ProductService service;
+    
+    
+    @GetMapping("/get-product")
+    public String getProduct() {
+    	return "products: laptop,mobile";
+    }
 
     @PostMapping("/create")
     public Product createProduct(@RequestBody Product product) {
